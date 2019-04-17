@@ -1,0 +1,250 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+body{
+	background-color: rgba(175,141,165,0.8);
+}
+.head {
+	background-color: #fff;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 60px;
+}
+
+.navlist ul,
+li {
+	float: right;
+	line-height: 60px;
+}
+
+.navlist a {
+	text-decoration: none;
+	font-size: 30px;
+	color: #000000;
+	padding-right: 10px;
+}
+
+.navlist  img {
+	margin-top: 10px;
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+}
+.navlist img:hover , .searchbox img:hover , .login img:hover ,.registerbutton img:hover{
+	position: relative;
+	top: 2px;
+	right: 2px;
+	filter: alpha(opacity=0.5);
+	opacity: 0.5;
+}
+
+.searchbox {
+	position: absolute;
+	left: 5px;
+	top: 7px;
+}
+
+.searchbox input {
+	font-size: 15px;
+	width: 190px;
+	height: 30px;
+	border: none;
+	border-bottom: solid 1px #000000;
+}
+
+.searchbox a {
+	position: relative;
+	margin-top: 10px;
+	margin-left: 200px;
+}
+
+.searchbox img {
+	margin-top:5px ;
+	height: 32px;
+	width: 50px;
+}
+
+.logo{
+	margin-top: 60px;
+	width: 100%;
+	height: 170px;
+}
+
+.tilte{
+font-size: 60px;
+font-family:"Clarendon Lt BT Light";	
+color: #FAFAFA;
+line-height: 100px;
+text-align: center;
+}
+
+.content{
+	
+	width:100%;
+	height: 550px;
+		
+}
+
+.login{
+	display: block;
+	background-color:rgba(230,230,250,0.3) ;
+	width: 350px;
+	height: 250px;
+	float: left;
+	padding-top:25px;
+	position: fixed;
+	top: 35%;
+	left: 37%;
+	font-family: arial;
+	color: #FFFFBE;
+}
+.login li{
+	
+	font-size: 16px;
+	float:left;
+	padding-left: 15px;
+	padding-top: 5px;
+	
+}
+.close{
+	font-size: 20px;
+	text-align: right;
+	padding-right: 25px;
+	line-height: 20px;
+	padding-bottom: 0px;
+}
+
+.txt{
+	width: 300px;
+	height: 40px;
+	padding-left: 10px;
+	border-style: none;	
+	font-size: 16px;
+	color: #6B6575;
+}
+.login img{
+	width: auto;
+	height: 40px;
+	margin-top: 10px;
+}
+
+.register{
+	position: fixed;
+	top: 20%;
+	left: 35%;
+	display: none;
+	padding: 25px;
+	width:350px;
+	height: 350px;
+	background-color:rgba(230,230,250,0.3) ;
+}
+.register  input{
+	margin-left: 15px;
+	height: 30px;
+	width: 280px;
+	font-size: 16px;
+}
+.register .registertilte{
+	margin-bottom: 20px;
+	line-height: 30px;
+	float: left;
+	font-size: 16px;
+	color: #fff;
+}
+.register .registertilte a{
+	text-decoration: none;
+	color: #fff;
+}
+.register .closeregister{
+	margin-bottom: 20px;
+	width: 50%;
+	line-height: 30px;
+	float: right;
+}
+.register  .registerbutton{
+	margin-top: 20px;
+}
+.register  .registerbutton a{
+
+	width: 50%;
+	padding: 10px;
+	line-height: 40px;
+}
+.register .closeregister a{
+	float: right;
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	height: 30px;
+	}	
+.register .registertilte a:hover,.register .closeregister a:hover{
+	color: #99758D;
+	}
+	
+.list{
+	background-color: rgba(217,193,215,0.5);
+    width: 150px;
+    height: 195px;
+    float: right;
+    position: fixed;
+    right: 15px;
+    top: 180px;
+	
+}
+.toplist{
+	padding:20px;
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+.list ul,li{
+	line-height: 35px;
+
+	font-size:16px;
+}
+
+.listtxt{
+	
+	width: 100%;
+    margin: 2px;
+    background-color: rgba(250,250,250,0.5);
+}
+.login a, .listtxt a{
+text-decoration:none;
+	color:#fff;
+}
+
+.login a:hover,.listtxt a:hover{
+	right:2px ;
+	bottom: 2px;
+	color:#A08AB5;
+}
+
+.foot {
+	clear:both;
+	margin-bottom:0px;
+	background-color: #5F5A62;
+	width: 100%;
+	height:50px;
+	font-size: 16px;
+	font-family: "bookman old style";
+	color: #fff;
+	text-align: center;
+	line-height:50px;
+}
+
+/*微博信息显示界面*/
+.show_bloginfo{
+	width: 80%;
+
+	margin-left: 5%;
+	margin-top: 10px;
+	
+}
+

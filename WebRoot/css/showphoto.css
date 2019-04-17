@@ -1,0 +1,44 @@
+
+.content{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+.photo_left_content {
+	float: left;
+	width: 30%;
+	height:auto;
+}
+
+.photo_right_content {
+	margin-top: 20px;
+	margin-left: 5%;
+	float: right;
+	width: 65%;
+	height: auto;
+}
+/* #form0 img{
+	width:200px;
+	height:150px;
+} */
+
+.photo_right_content img.mat {
+	
+	float:left;
+	width:40%;
+	margin:2%;
+	height:140px;
+     border: 5px solid #fff;
+        padding: 5px;
+        background: #fff;
+}   
+ .float_paper{
+ 
+	width:2%;
+	heigth:5px;
+	background-color:#000;
+	
+	top:48%;
+	left:-10px;
+	
+}                           

@@ -1,0 +1,302 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+body {
+	background-color: rgba(230, 230, 250, 0.3);
+}
+
+.head {
+	background-color: rgb(173,185,190);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 60px;
+	z-index:100000;
+}
+
+.show_logo_flower {
+	display: block;
+	width: 150px;
+	height: 200px;
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+}
+
+.show_logo_flower img {
+	width: 150px;
+	height: 200px;
+}
+
+.navlist ul,li {
+	clear: both;
+	float: right;
+}
+
+.navlist a {
+	text-decoration: none;
+	font-size: 30px;
+	color: #000000;
+	padding-right: 10px;
+}
+
+.navlist img {
+	margin-top: 10px;
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+}
+
+.searchbox {
+	width: 250px;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+
+.searchinput {
+	float: left;
+}
+
+.searchinput  input {
+	padding-left: 10px;
+	font-size: 15px;
+	width: 190px;
+	height: 30px;
+	border: none;
+	border-bottom: solid 1px #000000;
+	font-size: 15px;
+}
+
+.searchbutton {
+	float: right;
+}
+
+.searchbutton img {
+	height: 30px;
+	width: 40px;
+}
+
+.list {
+	display: none;
+	background-color: rgba(195, 190, 212, 0.5);
+	width: 130px;
+	height: 150px;
+	position: fixed;
+	right: 10px;
+	top: 50px;
+}
+
+.list ul,li {
+	line-height: 5px;
+}
+
+.listtxt {
+	width: 100%;
+	background-color: #ccc;
+}
+
+.listtxt img {
+	margin-left: -2px;
+	margin-top: 2px;
+	width: 130px;
+	height: 33px;
+}
+
+.listtxt img:hover,.navlist img:hover,.searchbox img:hover,.login img:hover,.registerbutton img:hover
+	{
+	position: relative;
+	top: 2px;
+	right: 2px;
+	filter: alpha(opacity = 0.5);
+	opacity: 0.6;
+}
+
+.logo {
+	margin-top: 60px;
+	width: 100%;
+	height: 170px;
+}
+
+.tilte {
+	font-size: 60px;
+	font-family: "Clarendon Lt BT Light";
+	color: #FAFAFA;
+	line-height: 100px;
+	text-align: center;
+}
+
+.content {
+	width: 100%;
+	height:auto;
+}
+.content_full{
+	width:100%;
+	height:360px;
+}
+
+.login_form {
+	position: fixed;
+	top: 35%;
+	left: 37%;
+}
+
+.login {
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 350px;
+	height: 250px;
+	float: left;
+	padding-top: 25px;
+	font-family: arial;
+	color: #FFFFBE;
+}
+
+.login li {
+	margin-top: 10px;
+	font-size: 16px;
+	float: left;
+	padding-left: 15px;
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+.close {
+	font-size: 20px;
+	text-align: right;
+	padding-right: 25px;
+	line-height: 20px;
+	padding-bottom: 0px;
+}
+
+.input input {
+	width: 300px;
+	height: 40px;
+	padding-left: 10px;
+	border-style: none;
+	font-size: 16px;
+	color: #6B6575;
+}
+
+.login img {
+	width: auto;
+	height: 40px;
+	margin-top: 10px;
+}
+
+.register_form {
+	display: none;
+	position: fixed;
+	top: 20%;
+	left: 35%;
+}
+
+.register {
+	padding: 25px;
+	width: 350px;
+	height: 350px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.register input {
+	padding-left: 10px;
+	text-align: inherit;
+	margin-top: 10px;
+	margin-left: 15px;
+	height: 30px;
+	width: 310px;
+	font-size: 15px;
+}
+
+.register .registertilte {
+	margin-bottom: 20px;
+	line-height: 30px;
+	float: left;
+	font-size: 16px;
+	color: #fff;
+}
+
+.register .registertilte a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.register .closeregister {
+	margin-bottom: 20px;
+	width: 50%;
+	line-height: 30px;
+	float: right;
+}
+
+.register .registerbutton {
+	margin-top: 20px;
+}
+
+.register .registerbutton a {
+	width: 50%;
+	padding: 10px;
+	line-height: 40px;
+}
+
+.register .closeregister a {
+	float: right;
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	height: 30px;
+}
+
+.register .registertilte a:hover,.register .closeregister a:hover {
+	color: #99758D;
+}
+
+.toplist {
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+.login a,.listtxt a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.login a,.listtxt a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.login a:hover,.listtxt a:hover {
+	right: 2px;
+	bottom: 2px;
+	color: #A08AB5;
+}
+
+.foot {
+	clear: both;
+	margin-bottom: 0px;
+	background-color: #5F5A62;
+	width: 100%;
+	height: 50px;
+	font-size: 10px;
+	font-family: "bookman old style";
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+}
+
+.show_bloginfo {
+	width: 70%;
+	float: left;
+	margin-left: 2%;
+}
+
+.show_hotlist {
+	float: right;
+	margin-right: 2%;
+	width: 25%;
+	background-color: rgba(0, 0, 0, 0.2);
+	height: 500px;
+}
