@@ -11,7 +11,7 @@
 
 
 
-有一些文章里面显示出来的是*,是因为测试的时候后过滤掉了
+有一些文章里面显示出来的是*,是因为测试的时候后过滤掉了一些我自己设置的敏感词
 ![image](https://github.com/caryophyllis/Blog_me/blob/master/image/toplist.png)
 
 显示所有文章的列表，分页，侧边有排行榜，点开文件之后可以评价文章
